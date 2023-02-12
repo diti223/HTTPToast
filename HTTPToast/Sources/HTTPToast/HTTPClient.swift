@@ -25,11 +25,11 @@ public enum HTTPMethod: String {
 }
 
 public struct HTTPResponse {
-    public let data: Data
+    public let data: Data?
     public let headers: [String: String]
     public let statusCode: Int
     
-    public init(data: Data, headers: [String : String], statusCode: Int) {
+    public init(data: Data?, headers: [String : String], statusCode: Int) {
         self.data = data
         self.headers = headers
         self.statusCode = statusCode

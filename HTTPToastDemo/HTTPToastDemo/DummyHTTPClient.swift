@@ -57,12 +57,12 @@ extension HTTPResponse: CustomStringConvertible {
     public var description: String {
         
         // if json
-        if let json = try? JSONSerialization.jsonObject(with: self.data, options: JSONSerialization.ReadingOptions.allowFragments) as? [String: Any] {
+        if let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: JSONSerialization.ReadingOptions.allowFragments) as? [String: Any] {
             return "\(statusCode) - \(json)"
         }
         
         //else
-        if let string = String(data: data, encoding: .utf8) {
+        if let data = data, let string = String(data: data, encoding: .utf8) {
             return "\(statusCode) - \(string)"
         }
         
