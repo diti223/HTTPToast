@@ -1,4 +1,5 @@
-# HTTPToast
+![Toast](https://cdn-icons-png.flaticon.com/512/284/284746.png)
+# HTTPToast 
 HTTPToast is a lightweight and intuitive SwiftUI component that helps you debug your HTTP requests and responses. With HTTPToast, you can quickly and easily track the performance of your network requests and identify any potential issues.
 # Features
 * Displays a pop-up toast with detailed information about your request and response, including the HTTP method, status code, and headers.
@@ -9,7 +10,7 @@ HTTPToast is a lightweight and intuitive SwiftUI component that helps you debug 
 HTTPToast is available through  [Swift Package Manager](https://swift.org/package-manager/) . To install it, simply add the following line to your Package.swift file:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/[username]/HTTPToast.git", from: "0.1.0")
+    .package(url: "https://github.com/diti223/HTTPToast.git", from: "0.1.0")
 ]
 ```
 
@@ -40,4 +41,4 @@ struct ContentView: View {
 # Contribution
 HTTPToast is an open-source project, and contributions are more than welcome. If you find a bug or have an idea for a new feature, feel free to open an issue or submit a pull request.
 # License
-HTTPToast is released under the  [MIT License](https://github.com/%5Busername%5D/HTTPToast/blob/master/LICENSE) .
+HTTPToast is released under the  [MIT License](https://github.com/diti223/HTTPToast/blob/master/LICENSE) .
