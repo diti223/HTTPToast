@@ -22,11 +22,8 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(
-            name: "HTTPToast",
-            dependencies: []),
-        .testTarget(
-            name: "HTTPToastTests",
-            dependencies: ["HTTPToast"]),
+            name: "HTTPToast"
+        )
     ],
     swiftLanguageVersions: [.v5]
 )

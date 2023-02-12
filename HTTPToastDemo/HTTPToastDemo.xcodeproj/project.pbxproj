@@ -11,9 +11,9 @@
 		3A3A84F5299806CF006CA3A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A84F4299806CF006CA3A5 /* ContentView.swift */; };
 		3A3A84F7299806D0006CA3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A84F6299806D0006CA3A5 /* Assets.xcassets */; };
 		3A3A84FA299806D0006CA3A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A84F9299806D0006CA3A5 /* Preview Assets.xcassets */; };
-		3A3A850129980761006CA3A5 /* HTTPToast in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A850029980760006CA3A5 /* HTTPToast */; };
 		3A3A85042998076B006CA3A5 /* HTTPToast in Frameworks */ = {isa = PBXBuildFile; productRef = 3A3A85032998076B006CA3A5 /* HTTPToast */; };
 		3A3A85062998079F006CA3A5 /* DummyHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A85052998079F006CA3A5 /* DummyHTTPClient.swift */; };
+		3A3A850A2998B0CC006CA3A5 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A85092998B0CC006CA3A5 /* Package.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		3A3A84F4299806CF006CA3A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A3A84F6299806D0006CA3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3A84F9299806D0006CA3A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3A3A850029980760006CA3A5 /* HTTPToast */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = HTTPToast; path = ../HTTPToast; sourceTree = "<group>"; };
 		3A3A85052998079F006CA3A5 /* DummyHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHTTPClient.swift; sourceTree = "<group>"; };
+		3A3A85092998B0CC006CA3A5 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		3A3A84E6299806CF006CA3A5 = {
 			isa = PBXGroup;
 			children = (
-				3A3A850029980760006CA3A5 /* HTTPToast */,
+				3A3A85092998B0CC006CA3A5 /* Package.swift */,
 				3A3A84F1299806CF006CA3A5 /* HTTPToastDemo */,
 				3A3A84F0299806CF006CA3A5 /* Products */,
 				3A3A85022998076B006CA3A5 /* Frameworks */,
@@ -144,7 +144,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A3A850129980761006CA3A5 /* HTTPToast in Resources */,
 				3A3A84FA299806D0006CA3A5 /* Preview Assets.xcassets in Resources */,
 				3A3A84F7299806D0006CA3A5 /* Assets.xcassets in Resources */,
 			);
@@ -157,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A3A850A2998B0CC006CA3A5 /* Package.swift in Sources */,
 				3A3A85062998079F006CA3A5 /* DummyHTTPClient.swift in Sources */,
 				3A3A84F5299806CF006CA3A5 /* ContentView.swift in Sources */,
 				3A3A84F3299806CF006CA3A5 /* HTTPToastDemoApp.swift in Sources */,
