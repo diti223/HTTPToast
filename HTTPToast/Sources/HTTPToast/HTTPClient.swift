@@ -35,4 +35,3 @@ public struct HTTPResponse {
         self.statusCode = statusCode
     }
 }
-
