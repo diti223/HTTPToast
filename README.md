@@ -1,4 +1,5 @@
-# HTTPToast
+![Toast](https://cdn-icons-png.flaticon.com/512/284/284746.png)
+# HTTPToast 
 HTTPToast is a lightweight and intuitive SwiftUI component that helps you debug your HTTP requests and responses. With HTTPToast, you can quickly and easily track the performance of your network requests and identify any potential issues.
 # Features
 * Displays a pop-up toast with detailed information about your request and response, including the HTTP method, status code, and headers.
